@@ -1,5 +1,6 @@
 # MATH5800
 Repository for MATH 5800 project
+
 Here is a resource for [markdown syntax](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet)
 
 ## References
