@@ -12,6 +12,7 @@ We are interested in projects about image classification.
 
 #### Mike Resources:
 - https://www.kaggle.com/c/digit-recognizer/data (Early Data)
+- http://hanzratech.in/2015/02/24/handwritten-digit-recognition-using-opencv-sklearn-and-python.html (an example I want to try)
 
 #### Sean Resources:
 - Here is a simple [introduction](https://towardsdatascience.com/logistic-regression-detailed-overview-46c4da4303bc) to logistic regression.
