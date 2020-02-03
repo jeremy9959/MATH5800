@@ -12,12 +12,14 @@ We are interested in projects about image classification.
 - Christopher Bishop's [Pattern Recognition and Machine Learning](https://www.microsoft.com/en-us/research/uploads/prod/2006/01/Bishop-Pattern-Recognition-and-Machine-Learning-2006.pdf) provides useful information, specifically referencing logistic regression on page 217.
 - [NEAT](http://nn.cs.utexas.edu/downloads/papers/stanley.ec02.pdf) is a genetic algorithm for unsupervised learning. It is not particularly useful for image processing, but I find it intriguing.
 
-[comment]: <Talk a bit of Jeremy's initial guidance to use logistic regression; jupyter notebook?>
+[Adri comment]: <Talk a bit of Jeremy's initial guidance to use logistic regression; jupyter notebook?>
 
 #### Mike Resources:
 - https://www.kaggle.com/c/digit-recognizer/data (Early Data)
 - http://hanzratech.in/2015/02/24/handwritten-digit-recognition-using-opencv-sklearn-and-python.html (an example I want to try)
 - https://machinelearningmastery.com/handwritten-digit-recognition-using-convolutional-neural-networks-python-keras/ (another example)
+
+[Adri comment]: <Show the logistic regression code, etc.>
 
 #### Adriana Resources:
 - [Li Dong Github Site](https://github.com/ldong87/ECSE4965_Deep_Learning). Li Dong was a doctoral student at Rensselaer Polytechnic Institute taking a _Intro to Deep Learning Course_. The link directs to his homework files. The HW3 file regards a neural network for recognizing digits using MNIST dataset.
