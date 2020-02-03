@@ -18,7 +18,7 @@ We are interested in projects about image classification.
 - https://machinelearningmastery.com/handwritten-digit-recognition-using-convolutional-neural-networks-python-keras/ (another example)
 
 #### Adriana Resources:
-- [Li Dong Github Site](https://github.com/ldong87/ECSE4965_Deep_Learning)Li Dong was a doctoral student at Rensselaer Polytechnic Institute taking a _Intro to Deep Learning Course_. The link directs to his homework files. The HW3 file regards a neural network for recognizing digits using MNIST dataset.
--[Tensorflow Tutorial for CNN using CIFAR-10 dataset](https://www.tensorflow.org/tutorials/images/cnn) HW4 in Li Dong's Github regards a modified CNN that uses CIFAR-10, as well.
--Adriana' Google Drive: One or two files of the CNN implemented during summer REU at RPI. 
+- [Li Dong Github Site](https://github.com/ldong87/ECSE4965_Deep_Learning).Li Dong was a doctoral student at Rensselaer Polytechnic Institute taking a _Intro to Deep Learning Course_. The link directs to his homework files. The HW3 file regards a neural network for recognizing digits using MNIST dataset.
+- [Tensorflow Tutorial for CNN using CIFAR-10 dataset](https://www.tensorflow.org/tutorials/images/cnn). HW4 in Li Dong's Github regards a modified CNN that uses CIFAR-10, as well.
+- Adriana' Google Drive: One or two files of the CNN implemented during summer REU at RPI. 
 
