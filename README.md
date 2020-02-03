@@ -11,6 +11,7 @@ We are interested in projects about image classification.
 - Here is a simple [introduction](https://towardsdatascience.com/logistic-regression-detailed-overview-46c4da4303bc) to logistic regression.
 - Christopher Bishop's [Pattern Recognition and Machine Learning](https://www.microsoft.com/en-us/research/uploads/prod/2006/01/Bishop-Pattern-Recognition-and-Machine-Learning-2006.pdf) provides useful information, specifically referencing logistic regression on page 217.
 - [NEAT](http://nn.cs.utexas.edu/downloads/papers/stanley.ec02.pdf) is a genetic algorithm for unsupervised learning. While its main application is not for image processing, I believe it is fascinating and adaptable to a wide variety of projects.
+- [Here](https://arxiv.org/pdf/1712.03541.pdf) is an interesting arxiv preprint combining CNN with SVM methods for image processing.
 
 [Adri comment]: <Talk a bit of Jeremy's initial guidance to use logistic regression; jupyter notebook?>
 
