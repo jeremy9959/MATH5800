@@ -8,9 +8,14 @@ class Logistic:
     num = 0
     z = 0
 
-    def __init__(self, max_iterations, tolerance):
+    def __init__(self, max_iterations, tolerance, intercept=False):
         self.max_iterations = max_iterations
         self.tolerance = tolerance
+        self.intercept = intercept
+
+    def add_intercept(self, X):
+        intercept = np.ones((X.shape[0],1))
+        return np.hstack((X, intercept))
     
     def zed(self, x):
         z = np.zeros(x.shape[0])
@@ -19,6 +24,7 @@ class Logistic:
         return z
 
     def p(self, x):
+
         p = np.zeros((self.num, x.shape[0]))
         for j in range(self.num):
             p[j] = np.exp(np.dot(x, self.theta[j])) / self.zed(x)
@@ -27,6 +33,9 @@ class Logistic:
 
     def fit(self, X, y):
 
+        if self.intercept==True:
+            X = self.add_intercept(X)
+
         num_classes = np.unique(y).shape[0]
         self.num = num_classes
 
@@ -34,8 +43,8 @@ class Logistic:
 
         for r in range(self.max_iterations):
 
-
             gradient = np.zeros(self.theta.shape)
+
             for j in range(num_classes):
                 for i in range(X.shape[0]):
                     if(y[i] == j):
@@ -52,6 +61,10 @@ class Logistic:
         
 
     def score(self, X_test,y_test):
+
+        if self.intercept == True:
+            X_test = self.add_intercept(X_test)
+
 
         probs = self.p(X_test)
 
