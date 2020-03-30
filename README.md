@@ -13,7 +13,6 @@ We are interested in projects about image classification.
 - [NEAT](http://nn.cs.utexas.edu/downloads/papers/stanley.ec02.pdf) is a genetic algorithm for unsupervised learning. While its main application is not for image processing, I believe it is fascinating and adaptable to a wide variety of projects.
 - [Here](https://arxiv.org/pdf/1712.03541.pdf) is an interesting arxiv preprint combining CNN with SVM methods for image processing.
 - Stanford's [CS231](http://cs231n.github.io/convolutional-networks/) is an extremely useful resource for CNN architecture
-[Adri comment]: <Talk a bit of Jeremy's initial guidance to use logistic regression; jupyter notebook?>
 
 #### Mike Resources:
 - https://www.kaggle.com/c/digit-recognizer/data (Early Data)
